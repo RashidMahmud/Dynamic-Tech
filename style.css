@@ -4,14 +4,14 @@
     padding: 0;
 }
 :root{
-    --main-color:#e9660f;
+    --main-color:#ff5b0e;
 }
 .nav{
     display: flex;
     justify-content: space-between;
-    padding: 0px 50px;
+    padding: 20px 50px;
     align-items: center;
-    background-color: black; 
+    background-color: #302f2f; 
 }
 .nav .logo{
     color: var(--main-color);
@@ -21,13 +21,20 @@
 }
 .nav-links{
     display: flex;
+    background-color: black;
+    padding: 12px;
+    border-radius: 0.5rem;
+    gap: 1rem;
 }
 .nav-links a{
         color: white;
         text-align: center;
-        padding: 20px;
+        padding: 5px 10px;
         text-decoration: none;
         font-size: 1.5rem;
-        line-height: 25px;
+}
+.home{
+    background-color: var(--main-color) ;
+    border-radius: 0.4rem;
 }
 
